@@ -1,0 +1,33 @@
+html body {
+  overflow-x: hidden;
+}
+
+.nav-logo:hover {
+  cursor: pointer;
+}
+
+.nav .nav-content {
+  max-width: 900px;
+  padding: 0rem 3rem;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+}
+
+.nav-item {
+  display: inline;
+  margin-left: 2rem;
+  color: #333;
+}
+
+.nav-item:hover {
+  color: black;
+  cursor: pointer;
+}
+
+.active {
+  border-bottom : 2px solid white;
+  transition: top 0.5s;
+}
